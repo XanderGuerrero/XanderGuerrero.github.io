@@ -2,22 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Losin It Studios</title>
+  <title>Losin' It Studios</title>
   <style>
-    body { font-family:sans-serif; text-align:center; padding:2em; }
-    img { max-width:200px; margin-bottom:1em; }
-    a { color:#007acc; text-decoration:none; }
+    /* Page reset and body styling */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #121212;          /* Dark background */
+      color: #f0f0f0;               /* Light text */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    /* Container for content */
+    .container {
+      background: #1e1e1e;          /* Slightly lighter panel */
+      padding: 2rem 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      max-width: 400px;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      color: #00d8ff;              /* Cyan accent */
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      line-height: 1.4;
+    }
+
+    a {
+      display: inline-block;
+      color: #ff4081;              /* Pink accent */
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border: 2px solid #ff4081;
+      border-radius: 4px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    a:hover {
+      background: #ff4081;
+      color: #1e1e1e;
+    }
   </style>
 </head>
 <body>
-  <!-- Logo at the top: replace ‘logo.png’ with your file -->
-  <img src="logo.png" alt="Losin It Studios Logo" />
+  <div class="container">
 
-  <h1>Losin It Studios</h1>
-  <p>Contact us at  
+ <img src="logo.png" alt="Losin' It Studios Logo" style="max-width:120px; margin-bottom:1rem;">
+
+    <h1>Losin' It Studios</h1>
+    <p>Need support or have questions?<br>
+       Reach out via email:</p>
     <a href="mailto:alexander.d.guerrero@outlook.com">
       alexander.d.guerrero@outlook.com
     </a>
-  </p>
+  </div>
 </body>
 </html>
