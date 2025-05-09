@@ -1,0 +1,20 @@
+title: Losin' It Studios
+url: "https://xanderguerrero.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation
+navbar:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Portfolio
+    url: /portfolio/
+  - title: Contact
+    url: /contact/
+
+# Dark theme overrides
+sass:
+  style: compressed
